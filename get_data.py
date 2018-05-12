@@ -35,5 +35,5 @@ def download_data(ticker,freq="1d"):
     browser.close() 
 
 if __name__ == "__main__":
-    ticker = ["FXE","EWJ","GLD","QQQQ","SPY","SHV","DBA","USO","XBI","ILF","GAF","EPP","FEZ"]
+    ticker = ["FXE","EWJ","GLD","QQQ","SPY","SHV","DBA","USO","XBI","ILF","GAF","EPP","FEZ"]
     download_data(ticker)
